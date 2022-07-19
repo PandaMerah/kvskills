@@ -15,6 +15,7 @@ https://docs.microsoft.com/en-us/powershell/module/fileserverresourcemanager/new
 https://docs.microsoft.com/en-us/powershell/module/fileserverresourcemanager/get-fsrmfilescreentemplate?view=windowsserver2022-ps
 https://docs.microsoft.com/en-us/powershell/module/fileserverresourcemanager/new-fsrmfilescreen?view=windowsserver2022-ps
 #Tinggal cara nak configure UNC Path utk Network File share & cara nak configure work folders
+work https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/dn528861(v=ws.11)?redirectedfrom=MSDN
 
 Linux (Debian)
 
@@ -25,6 +26,13 @@ https://pastebin.com/MYvHJ0Gj
 Web
 apt install nginx
 https://www.serverlab.ca/tutorials/linux/web-servers-linux/how-to-configure-multiple-domains-with-nginx-on-ubuntu/
+https://docs.nginx.com/nginx/admin-guide/security-controls/configuring-http-basic-authentication/
 https://gist.github.com/bradtraversy/cd90d1ed3c462fe3bddd11bf8953a896
 * NOTE - sudo pkill -f nginx & wait $!
 sudo systemctl start nginx
+https://www.howtocodeschool.com/2020/05/display-current-date-and-time-using-html-javascript.html TIME HTML
+mail / FTP
+useradd / adduser (USER)
+passwd (USER)
+https://www.ionos.com/digitalguide/e-mail/technical-matters/set-up-a-postfix-mail-server-with-dovecot-and-squirrelmail-on-ubuntu/
+https://bobcares.com/blog/proftpd-create-user/ FTP
