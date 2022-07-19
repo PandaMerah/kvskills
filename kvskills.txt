@@ -1,0 +1,30 @@
+Windows Server 2019 Core
+
+Configure IP
+https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/rename-computer?view=powershell-7.2
+https://www.pdq.com/blog/using-powershell-to-set-static-and-dhcp-ip-addresses-part-1/
+Raid
+https://tchekbo.wordpress.com/2018/04/22/configuring-raid-5-from-the-command-prompt-using-diskpart
+https://www.diskpart.com/diskpart/diskpart-has-encountered-an-error-the-media-is-write-protected.html
+file share
+https://docs.microsoft.com/en-us/powershell/module/smbshare/new-smbshare?view=windowsserver2022-ps / https://www.tutorialspoint.com/how-to-share-a-windows-folder-using-powershell
+https://www.tutorialspoint.com/how-to-change-smb-shared-folder-access-permission-using-powershell
+https://www.rootusers.com/install-file-server-resource-manager-fsrm-role-in-windows-server-2016/
+https://docs.microsoft.com/en-us/powershell/module/fileserverresourcemanager/get-fsrmquotatemplate?view=windowsserver2022-ps
+https://docs.microsoft.com/en-us/powershell/module/fileserverresourcemanager/new-fsrmquota?view=windowsserver2022-ps
+https://docs.microsoft.com/en-us/powershell/module/fileserverresourcemanager/get-fsrmfilescreentemplate?view=windowsserver2022-ps
+https://docs.microsoft.com/en-us/powershell/module/fileserverresourcemanager/new-fsrmfilescreen?view=windowsserver2022-ps
+#Tinggal cara nak configure UNC Path utk Network File share & cara nak configure work folders
+
+Linux (Debian)
+
+DNS
+https://linuxhint.com/configure-dns-server-on-debian/
+https://www.reddit.com/r/sysadmin/comments/2l640u/bind_configuration_help_mx_is_a_cname_illegal/
+https://pastebin.com/MYvHJ0Gj
+Web
+apt install nginx
+https://www.serverlab.ca/tutorials/linux/web-servers-linux/how-to-configure-multiple-domains-with-nginx-on-ubuntu/
+https://gist.github.com/bradtraversy/cd90d1ed3c462fe3bddd11bf8953a896
+* NOTE - sudo pkill -f nginx & wait $!
+sudo systemctl start nginx
